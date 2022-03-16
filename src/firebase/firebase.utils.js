@@ -1,15 +1,15 @@
-import firebase from 'firebase/app';
-import 'firebase/firestore';
-import 'firebase/auth';
+import firebase from 'firebase/compat/app'
+import 'firebase/compat/firestore'
+import 'firebase/compat/auth'
 
 const config = {
-  apiKey: 'AIzaSyCdHT-AYHXjF7wOrfAchX4PIm3cSj5tn14',
-  authDomain: 'crwn-db.firebaseapp.com',
-  databaseURL: 'https://crwn-db.firebaseio.com',
-  projectId: 'crwn-db',
-  storageBucket: 'crwn-db.appspot.com',
-  messagingSenderId: '850995411664',
-  appId: '1:850995411664:web:7ddc01d597846f65'
+  apiKey: "AIzaSyD079fZIKe0vz9oKZkdlfTf1SPaortTSUM",
+  authDomain: "crwn-db-2a5b7.firebaseapp.com",
+  projectId: "crwn-db-2a5b7",
+  storageBucket: "crwn-db-2a5b7.appspot.com",
+  messagingSenderId: "1026611495210",
+  appId: "1:1026611495210:web:c7004f4aa7b8eb91b49e53",
+  measurementId: "G-6398MPGPZT"
 };
 
 firebase.initializeApp(config);
